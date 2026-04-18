@@ -1,0 +1,7 @@
+try:
+    a = int(input("enter the first number:"))
+    b = int(input("enter the second number:"))
+    result = a/b
+    print("your answer is", result)
+except ZeroDivisionError:
+    print("zero is invalid input!")
